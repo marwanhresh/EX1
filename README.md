@@ -3,9 +3,7 @@ SMART ELEVATOR
 links:
 
 1.https://www.youtube.com/watch?v=JXqVvmBOyyQ&list=PLdpEqO8FXeP5wB1fgD-DMAezJ6gHnGdkh&index=19&t=73s
-
 2.https://www.youtube.com/watch?v=siqiJAJWUVg&list=PLdpEqO8FXeP5wB1fgD-DMAezJ6gHnGdkh&index=18
-
 3.https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44
 
 I. The Elevator ProblemIn a multi-storied building people use the elevator to travel between floors.
@@ -17,7 +15,7 @@ The request comes at a particular time.
 The request is to go from one floor (source) to another (destination).
 The goal is to schedule the elevator in the best possible way.We need to define what we mean by “the best possible way”.
 II. Research question and motivation We need to find out which on-line algorithm gives a “good” solution.We need to define the goodness of the offline algorithm.
-“Which on-line algorithm best approximates the optimal off-line algorithm (if one exists) for the elevator scheduling problem?”For this we need to define What we mean by the optimal solution.
+“Which on-line algorithm best approximates the optimal off-line algorithm (if one exists) for the elevator scheduling problem?”For this we need to define enter image description hereWhat we mean by the optimal solution.
 The performance metrics for the on-line algorithms.
 We need to qualify the term “optimal” based on some criteria, for example in this case of the elevator scheduling problem the criteria could be one/more of the following:
 
@@ -25,6 +23,11 @@ We need to qualify the term “optimal” based on some criteria, for example in
 2.The number of passengers served per unit time should be the maximum.
 3.The average response time per request on any floor should be the minimum.
 4.The average waiting time per person on any floor should be the minimum.We choose the 3rdoption
+
+diagram:
+
+![image](https://user-images.githubusercontent.com/62513189/142477490-a301ab91-33a6-4b9c-b417-008178797c7c.png)
+
 
 How is the elevator assigned to the user?
 
@@ -43,4 +46,3 @@ The lift goes up when the difference between the current element and the next el
 Waiting Time on Calling Elevator By Utilizing Context Aware Platform in Smart Elevator
 
 Elevator system faces a serious challenge of reducing waiting time for passengers because of the computation limitation of the stand-alone elevator system. In this article, we present our proposal–PrecaElevator, a novel elevator system in smart building that enables passengers to reduce their waiting time through pre-registering elevator calls. After upgraded a traditional elevator to Internet of Things (IoT)-enabled and transferred the real-time computational capability to the agent server, the elevator was upgraded as a smart object computing on context awareness in both elevator and passengers. By leveraging BLE-based localization of the passenger, PrecaElevator enables the passenger to pre-register elevator call if his/her location was detected within the callable range for elevator control. We have experimented the proposed system in the real smart building environment. The simulations based on the calculated waiting time from elevator historical records showed the effectiveness of waiting time reduction.
-
