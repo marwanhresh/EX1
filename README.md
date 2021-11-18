@@ -3,7 +3,9 @@ SMART ELEVATOR
 links:
 
 1.https://www.youtube.com/watch?v=JXqVvmBOyyQ&list=PLdpEqO8FXeP5wB1fgD-DMAezJ6gHnGdkh&index=19&t=73s
+
 2.https://www.youtube.com/watch?v=siqiJAJWUVg&list=PLdpEqO8FXeP5wB1fgD-DMAezJ6gHnGdkh&index=18
+
 3.https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44
 
 I. The Elevator ProblemIn a multi-storied building people use the elevator to travel between floors.
